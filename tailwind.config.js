@@ -2,11 +2,14 @@
 export default {
     content: [
         "./resources/**/*.blade.php",
-        "./resources/**/*.js",
-        "./resources/**/*.vue",
+        "./resources/**/*.js"
     ],
     theme: {
-        extend: {},
+        extend: {
+            colors: {
+                "black": "#060606"
+            }
+        },
     },
     plugins: [],
 };
